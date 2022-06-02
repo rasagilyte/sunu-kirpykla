@@ -1,0 +1,252 @@
+html {
+    background-color: #fc5e55;
+} 
+
+body {
+    background-image: url(/images/image-feets-background.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: top center; */
+    /* background-image: linear-gradient(#08aeea, #2af598); */
+    /* background-image: linear-gradient(#Ffb645, #FFd18b);  */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+   }
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(/images/suo2.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.card2 {
+    background-image: url(/images/suo.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.card3 {
+    background-image: url(/images/suo3.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;  
+}
+
+.herobox2 {
+    flex: 1;   
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    }
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+
+i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+a.mybutton {
+    background-color: white;
+    color:#fc5e55;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.mybutton {
+    background-color: white;
+    color:#fc5e55;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+    font-size:1rem;
+}
+
+.mybutton:hover {
+    background-color: #3f1815;
+    color: white;
+    transition-duration: 1s;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.card1, .card2, .card3 {
+    border-radius: 8px;
+}
+
+.navbutton {
+    margin-left: 24px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    }
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+   }
+
+.tbox :last-child {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropdawn {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdawn {
+    display: block;
+}
+
+.dropdawn .navbutton {
+    width: 120px;
+    background-color: white;
+    border: 2px solid #fc5e55;
+}
+
+.dropdawn .navbutton a{
+    color:#fc5e55;
+}
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input [type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
+}
